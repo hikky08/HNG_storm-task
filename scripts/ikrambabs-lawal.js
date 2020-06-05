@@ -1,12 +1,10 @@
 const result = () => {
-    const Info = {
-        Name: " Ikram Babs-Lawal",
-        Hng_ID: "HNG-05009" ,
-        Lang_used: " Javascript"
-    }
-    details = ` Hello World,  I am  ${Info.Name } with the ID of  ${Info.Hng_ID } I am currently using
-                    ${ Info.Lang_used } to code`
-    console.log(details);
-    return  details; 
+    const info = {
+        Name: "[Ikram] [BabsLawal]",
+        Hng_ID: "[HNG-05009]",
+        Lang_used: "[Javascript]",
+        email: "hikramah08@gmail.com",
+    };
+    return `Hello World, this is ${info.Name} with HNGi7 ID ${info.Hng_ID} using ${info.Lang_used} for stage 2 task. ${info.email}`;
 };
-result()
+console.log(result());
